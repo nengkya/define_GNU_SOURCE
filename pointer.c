@@ -16,7 +16,8 @@ int main() {
 	printf("Address of x with %%x = %x\n", &x);
 	printf("Address of x with %%x = %x\n", pointer_x);
 	printf("Value   of x with %%x = %x\n", * pointer_x);
-	printf("%%x is format specifier to print a variable in hexadecimal\n\n");
+	printf("%%x is format specifier");
+	printf(" to print a variable in hexadecimal\n\n");
 
 	printf("Address of x                    with %%p = %p\n", &x);
 	printf("Value of pointer_x              with %%p = %p\n", pointer_x);
